@@ -6,8 +6,8 @@ const Nav = (props) => {
 
     return (
         <>
-            <nav className="flex justify-between items-center p-5 bg-darkEletricBlue px-2 sm:px-4 w-full z-20 top-0 left-0 ">
-                <div className="flex cursor-pointer">
+            <nav className="flex justify-between items-center p-5 bg-darkEletricBlue text-white font-alkalami px-2 sm:px-4 w-full z-20 top-0 left-0 ">
+                <div className="flex justify-between items-center cursor-pointer">
                     <div>
                         {/* Logo */}
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-1">
@@ -27,7 +27,7 @@ const Nav = (props) => {
                 </ul>
 
                 <div>
-                    <button className="hidden bg-cyan-400 rounded p-2 md:block">Get a Quote Now!</button>
+                    <button className="hidden rounded p-2 md:block">Get a Quote Now!</button>
                 </div>
                 
                 {/* Mobile Icon */}
@@ -42,14 +42,14 @@ const Nav = (props) => {
             </nav>
 
             {/* Mobile Menu */}
-            <div className={`flex flex-col p-10 sm:w-full mx-auto bg-zinc-200 text-center md:hidden ${navBar ? 'block' : 'hidden'} transition-transform duration-100 ease-in`}>
+            <div className={`flex flex-col p-10 bg-darkEletricBlue text-white sm:w-full mx-auto text-center md:hidden ${navBar ? 'block' : 'hidden'} transition-transform duration-100 ease-in`}>
                 <ul className="">
                     <li className="mb-2 cursor-pointer text-lg">Home</li>
                     <li className="mb-2 cursor-pointer text-lg">Services</li>
                     <li className="mb-3 cursor-pointer text-lg">About</li>
                 </ul>
                 <div>
-                <button className="bg-cyan-400 rounded p-2 text-lg">Get a Quote Now!</button>
+                <button className="rounded p-2 text-lg">Get a Quote Now!</button>
                 </div>     
             </div>
         </>
