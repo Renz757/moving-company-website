@@ -50,17 +50,17 @@ const HomePage = (props) => {
                 <div id="default-carousel" className="relative bg-manatee" data-carousel="slide">
                     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                   
-                        <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="1">
+                        <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item>
                             <span className="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800"></span>
-                          
+                            Slide 1
                         </div>
                        
-                        <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10" data-carousel-item="2">
-                            
+                        <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10" data-carousel-item>
+                            SLide 2
                         </div>
                         
-                        <div className="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item="3">
-                            
+                        <div className="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item>
+                            Slide 3
                         </div>
                     </div>
                 

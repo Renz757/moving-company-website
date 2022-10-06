@@ -48,7 +48,7 @@ const Nav = (props) => {
                     <li className="mb-3 cursor-pointer text-lg">About</li>
                 </ul>
                 <div>
-                    <button className="rounded p-2 text-lg">Get a Quote Now!</button>
+                    <button className="rounded p-2 text-lg bg-cafe">Get a Quote Now!</button>
                 </div>
             </div>
         </>
