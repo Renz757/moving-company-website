@@ -15,8 +15,8 @@ const CarouselComponent = () => {
 
     return (
         <>
-            <h1 className='text-center font-alkalami text-4xl tracking-wide mt-3'>Reviews</h1>
-            <Slider className='bg-manatee mt-2' {...settings}>
+            <h1 className='text-center font-alkalami text-4xl tracking-wide mt-6'>Reviews</h1>
+            <Slider className='bg-manatee mt-2 p-10 flex text-center lg:p-20' {...settings}>
                 <div className='carousel-item '>
                     <h3>Tamekka</h3>
                     <p>Tinsley moving services did a great at getting everything from point A to B. If I ever have to move I will be contacing them!!</p>

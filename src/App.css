@@ -1,0 +1,18 @@
+/* React Slick Style Overides */
+.slick-slider {
+    text-align: center;
+    overflow: hidden;
+}
+
+.slick-dots {
+    margin: auto;
+    width: 80%;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+}
+
+/* .slick-track {
+    width: 100px;
+} */

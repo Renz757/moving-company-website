@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './pages/nav';
 import HomePage from './pages/homePage';
+import Footer from './pages/footer';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Nav />
       <HomePage /> 
+      <Footer />
     </>
   );
 }
